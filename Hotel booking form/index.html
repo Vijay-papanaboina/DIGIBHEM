@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <input type="text" id="name" placeholder="" />
+      <label for="name">Name</label>
+    </div>
+    <div class="form">
+      <input type="text" id="date" placeholder="" onfocus="this.type='date'"  onabort="this.type='text'" />
+      <label for="date">Check in Date</label>
+    </div>
+    <div class="form">
+      <input type="number" id="days"placeholder="" />
+      <label for="days">Total No of Days</label>
+    </div>
+    <div class="form">
+      <input type="number" id="persons" placeholder=""/>
+      <label for="persons">Total No of persons</label>
+    </div>
+    <div class="form">
+      <select name="cars" id="room">
+        <option value="" disabled selected hidden>select room type</option>
+        <option value="">Delux-2500/-</option>
+        <option value="">suite-4000/-</option>
+      </select>
+      <label for="room">Room Type</label>
+    </div>
+    <div class="form">
+      <select name="" id="amenities">
+        <option value="" disabled selected hidden>select amenities</option>
+        <option value="">AC-1000/-</option>
+        <option value="">Locker-300/-</option>
+      </select>
+      <label for="amenities">Amanities</label>
+    </div>
+    <div class="form">
+      <input type="number" id="advance" placeholder=""/>
+      <label for="advance">Advance Payment</label>
+    </div>
+    <div class="for">
+      <input type="number" id="roomcost" placeholder=""/>
+      <label for="room cost">Total Room Cost</label>
+    </div>
+    <div class="for">
+      <input type="number" id="amenitiescost" placeholder=""/>
+      <label for="amanities cost">Total Amanities Cost</label>
+    </div>
+    <div class="for">
+      <input type="number" id="Extra" placeholder=""/>
+      <label for="Extra">Extra Person Cost</label>
+    </div>
+    <div class="for">
+      <input type="number" id="Total" placeholder=""/>
+      <label for="Total">Total Cost</label>
+    </div>
+    <div class="for">
+      <input type="number" id="balance" placeholder=""/>
+      <label for="Balance">Balance Amount</label>
+    </div>
+    <div>
+      <button id="button">
+        Calculate 
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

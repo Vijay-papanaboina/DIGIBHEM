@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-color:rgb(192, 44, 192);
+
+}
+.form input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+}
+
+.for input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+
+}
+
+
+.form select option{
+    color: #9a2525;
+}
+
+.form select{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.form{
+    position: relative;
+    margin: 20px;
+}
+
+
+.for{
+    position: relative;
+    margin: 20px;
+}
+
+.form label{
+    position: absolute;
+    top:25%;
+    left: 10px;
+    font-weight:500;
+    font-size: 17px;
+    transition: .3s;
+    color: white;
+}
+
+.for label{
+    position: absolute;
+    top:-23%;
+    left: 25px;
+    font-size: 17px;
+    background-color: rgb(192, 44, 192);
+    color: white;
+    padding: 0 5px;
+    
+}
+
+.form label:hover{
+    cursor:default;
+}
+
+.form input:hover{
+    cursor:default;
+}
+
+.form input:focus~label,
+.form input:not(:placeholder-shown)~label
+
+{
+    position: absolute;
+    top:-23%;
+    left: 25px;
+    font-size: 17px;
+    background-color: rgb(192, 44, 192);
+    color: white;
+    padding: 0 5px;
+}
+
+.form select:focus~label,
+.form select:not(:placeholder-shown)~label
+{
+    position: absolute;
+    top:-23%;
+    left: 25px;
+    font-size: 17px;
+    background-color: rgb(192, 44, 192);
+    color: white;
+    padding: 0 5px;
+}
+
+button{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: none;
+    color: #640a91;
+    background-color: antiquewhite;
+
+}
